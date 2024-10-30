@@ -1,4 +1,4 @@
-import logo from '../datas/the-witcher-jdr.jpg';
+import logo from '../assets/the-witcher-jdr.jpg';
 import '../styles/App.css';
 
 function App() {
