@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from '../datas/the-witcher-jdr.jpg';
+import '../styles/App.css';
 
 function App() {
   return (
