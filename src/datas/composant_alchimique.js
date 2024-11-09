@@ -15,7 +15,7 @@ export const composant_alchimique = [
         rarety: 'Inhabituelle',
         localisation: 'Nekkers',
         quantity: '-',
-        sd_research: None,
+        sd_research: "None",
         weight: '0,1 kg',
         price: 30
     },
@@ -35,7 +35,7 @@ export const composant_alchimique = [
         rarety: 'Rare',
         localisation: 'Goules',
         quantity: '-',
-        sd_research: None,
+        sd_research: "None",
         weight: '0,1 kg',
         price: 60
     },
@@ -65,7 +65,7 @@ export const composant_alchimique = [
         rarety: 'Rare',
         localisation: 'Trolls de pierre',
         quantity: '-',
-        sd_research: None,
+        sd_research: "None",
         weight: '4,5 kg',
         price: 147
     },

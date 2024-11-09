@@ -5,7 +5,7 @@ export const composant_artisanat = [
         rarety: 'Inhabituelle',
         localisation: 'Acheté ou fabriqué',
         quantity: '-',
-        sd_research: None,
+        sd_research: "None",
         weight: '0,1 kg',
         price: 16
     },
@@ -65,7 +65,7 @@ export const composant_artisanat = [
         rarety: 'Commune',
         localisation: 'Acheté ou fabriqué',
         quantity: '-',
-        sd_research: None,
+        sd_research: "None",
         weight: '0,1 kg',
         price: 3
     },
@@ -75,7 +75,7 @@ export const composant_artisanat = [
         rarety: 'Commune',
         localisation: 'Acheté ou fabriqué',
         quantity: '-',
-        sd_research: None,
+        sd_research: "None",
         weight: '0,1 kg',
         price: 3
     },
@@ -85,7 +85,7 @@ export const composant_artisanat = [
         rarety: 'Commune',
         localisation: 'Acheté ou fabriqué',
         quantity: '-',
-        sd_research: None,
+        sd_research: "None",
         weight: '0,1 kg',
         price: 9
     },
@@ -95,7 +95,7 @@ export const composant_artisanat = [
         rarety: 'Commune',
         localisation: 'Forêts',
         quantity: '1d6 unité(s)',
-        sd_research: None,
+        sd_research: "None",
         weight: '0,1 kg',
         price: 2
     },
@@ -105,7 +105,7 @@ export const composant_artisanat = [
         rarety: 'Inhabituelle',
         localisation: 'Acheté',
         quantity: '-',
-        sd_research: None,
+        sd_research: "None",
         weight: '0,1 kg',
         price: 50
     },
@@ -115,7 +115,7 @@ export const composant_artisanat = [
         rarety: 'Inhabituelle',
         localisation: 'Acheté ou fabriqué',
         quantity: '-',
-        sd_research: None,
+        sd_research: "None",
         weight: '0,1 kg',
         price:22
     },
@@ -125,7 +125,7 @@ export const composant_artisanat = [
         rarety: 'Inhabituelle',
         localisation: 'Acheté',
         quantity: '-',
-        sd_research: None,
+        sd_research: "None",
         weight: '0,5 kg',
         price: 5
     }
