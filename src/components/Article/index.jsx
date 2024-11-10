@@ -1,6 +1,6 @@
 import '../../styles/Article.css';
 import Card from 'react-bootstrap/Card';
-import { Outlet, Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 function Article({Title, Description, Page}) {
     return (
