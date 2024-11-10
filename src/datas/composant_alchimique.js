@@ -1,7 +1,7 @@
 export const composant_alchimique = [
     {
         name: 'Calcium equum',
-        substance: 'Vitriol',
+        category: 'Vitriol',
         rarety: 'Commune',
         localisation: 'Montagnes et sous-sols',
         quantity: '1d10 unité(s)',
@@ -11,7 +11,7 @@ export const composant_alchimique = [
     },
     {
         name: 'Dent de nekker',
-        substance: 'Vitriol',
+        category: 'Vitriol',
         rarety: 'Inhabituelle',
         localisation: 'Nekkers',
         quantity: '-',
@@ -21,7 +21,7 @@ export const composant_alchimique = [
     },
     {
         name: 'Fruit de balisse',
-        substance: 'Vitriol',
+        category: 'Vitriol',
         rarety: 'Commune',
         localisation: 'Champs',
         quantity: '1D10 unité(s)',
@@ -31,7 +31,7 @@ export const composant_alchimique = [
     },
     {
         name: 'Griffe de goule',
-        substance: 'Vitriol',
+        category: 'Vitriol',
         rarety: 'Rare',
         localisation: 'Goules',
         quantity: '-',
@@ -41,7 +41,7 @@ export const composant_alchimique = [
     },
     {
         name: 'Oeil de corbeau',
-        substance: 'Vitriol',
+        category: 'Vitriol',
         rarety: 'Inhabituelle',
         localisation: 'Champs et forêts',
         quantity: '1D6 unité(s)',
@@ -51,7 +51,7 @@ export const composant_alchimique = [
     },
     {
         name: 'Orge',
-        substance: 'Vitriol',
+        category: 'Vitriol',
         rarety: 'Commune',
         localisation: 'Champs',
         quantity: '1D10 unité(s)',
@@ -61,7 +61,7 @@ export const composant_alchimique = [
     },
     {
         name: 'Peau de troll',
-        substance: 'Vitriol',
+        category: 'Vitriol',
         rarety: 'Rare',
         localisation: 'Trolls de pierre',
         quantity: '-',
@@ -71,7 +71,7 @@ export const composant_alchimique = [
     },
     {
         name: 'Pétales de myrte blanc',
-        substance: 'Vitriol',
+        category: 'Vitriol',
         rarety: 'Commune',
         localisation: 'Champs',
         quantity: '1d10 unité(s)',
@@ -81,7 +81,7 @@ export const composant_alchimique = [
     },
     {
         name: 'Vitriocybe',
-        substance: 'Vitriol',
+        category: 'Vitriol',
         rarety: 'Inhabituelle',
         localisation: 'Grottes',
         quantity: '1d6 unité(s)',
