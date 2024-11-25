@@ -1,6 +1,6 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import ReactDOM from 'react-dom/client';
+import {  BrowserRouter as Router,  Routes,  Route} from "react-router-dom";
 import Header from './components/Header';
 import Home from './pages/Home';
 import ComposantAlchimie from './pages/ComposantAlchimie';
@@ -9,7 +9,9 @@ import FormuleAlchimie from './pages/FormuleAlchimie';
 import ShemaArtisanat from './pages/ShemaArtisanat';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById('root'));
+
+root.render(
   <React.StrictMode>
     <Router>
       <Header />
@@ -21,8 +23,7 @@ ReactDOM.render(
         <Route path="/ShemaArtisanat" element={<ShemaArtisanat />} />
       </Routes>
     </Router>
-  </React.StrictMode>,
-  document.getElementById('root')
+  </React.StrictMode>
 );
 
 

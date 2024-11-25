@@ -5,7 +5,9 @@ import { articleList } from '../../datas/liste_article_page.js';
 function Home() {
   
   let articleElements = articleList.map(function(article) {
-    return <Article Title={article.title} Description={article.desc} Page={article.page}></Article>;
+    return <div key={article.id} className='article'>
+      <Article Id={article.id} Title={article.title} Description={article.desc} Page={article.page}></Article>
+    </div>;
   });
   return (
     <div>
