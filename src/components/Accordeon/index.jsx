@@ -6,12 +6,14 @@ function Accordeon({DataList}) {
     let articleElements = DataList.map(function(data) {
       nb = nb + 1;
       return (
-      <Accordion.Item eventKey={nb}>
-          <Accordion.Header>{data.name}</Accordion.Header>
-          <Accordion.Body>
-            <ListData ObjectData={data} />
-          </Accordion.Body>
-      </Accordion.Item>
+        <div key={nb}>
+          <Accordion.Item eventKey={nb}>
+              <Accordion.Header>{data.name}</Accordion.Header>
+              <Accordion.Body>
+                <ListData key={nb} ObjectData={data} />
+              </Accordion.Body>
+          </Accordion.Item>
+        </div>
       );
     });
     return (
