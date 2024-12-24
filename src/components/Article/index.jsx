@@ -9,7 +9,7 @@ function Article({Id, Title, Description, Page}) {
             <Card.Body>
                 <Card.Title>{Title}</Card.Title>
                 <Card.Text>{Description}</Card.Text>
-                <Link to={Page}>{Title}</Link>
+                <Link eventKey={Id} to={Page}>{Title}</Link>
             </Card.Body>
         </Card>
     );
