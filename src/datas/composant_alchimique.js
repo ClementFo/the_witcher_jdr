@@ -1,4 +1,4 @@
-export const composant_alchimique_vitriol = [
+export const vitriol = [
     {
         name: 'Calcium equum',
         category: 'Vitriol',
@@ -181,7 +181,7 @@ export const composant_alchimique_vitriol = [
     }
 ]
 
-export const composant_alchimique_rebis = [
+export const rebis = [
     {
         name: 'Célandine',
         category: 'Rebis',
@@ -344,7 +344,7 @@ export const composant_alchimique_rebis = [
     }
 ]
 
-export const composant_alchimique_ether = [
+export const ether = [
     {
         name: 'Essence de fantôme',
         category: 'Ether',
@@ -507,7 +507,7 @@ export const composant_alchimique_ether = [
     }
 ]
 
-export const composant_alchimique_quebrith = [
+export const quebrith = [
     {
         name: 'Chèvrefeuille',
         category: 'Quebrith',
@@ -650,7 +650,7 @@ export const composant_alchimique_quebrith = [
     }
 ]
 
-export const composant_alchimique_hydragenum = [
+export const hydragenum = [
     {
         name: 'Cortinaire',
         category: 'Hydragenum',
@@ -803,7 +803,7 @@ export const composant_alchimique_hydragenum = [
     }
 ]
 
-export const composant_alchimique_vermillon = [
+export const vermillon = [
     {
         name: 'Aconit',
         category: 'Vermillon',
@@ -966,7 +966,7 @@ export const composant_alchimique_vermillon = [
     }
 ]
 
-export const composant_alchimique_sol = [
+export const sol = [
     {
         name: 'Aloès du loup',
         category: 'Sol',
@@ -1089,7 +1089,7 @@ export const composant_alchimique_sol = [
     }
 ]
 
-export const composant_alchimique_caelum = [
+export const caelum = [
     {
         name: 'Bryone',
         category: 'Caelum',
@@ -1242,7 +1242,7 @@ export const composant_alchimique_caelum = [
     }
 ]
 
-export const composant_alchimique_fulgur = [
+export const fulgur = [
     {
         name: 'Coeur de golem',
         category: 'Fulgur',
