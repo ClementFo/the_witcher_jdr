@@ -5,7 +5,6 @@ import Nav from 'react-bootstrap/Nav';
 import { articleList } from '../../datas/liste_article_page.js';
 
 function locationHashChanged(DefaultKey) {
-  console.log(DefaultKey);
   var collection = document.getElementsByClassName("active");
   for(let i = 0; i < collection.length; i++){
     if(collection[i]){
