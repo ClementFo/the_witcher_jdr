@@ -207,10 +207,50 @@ export const origine_animale = [
         category: 'Peaux et composants d\'origine animale',
         rarety: 'Commune',
         localisation: 'Loups',
-        quantity: '3 unités',
+        quantity: '1 unités',
         sd_research: 'None',
         weight: '3 kg',
         price: 14
+    },
+    {
+        name: 'Peau de loup-garou',
+        category: 'Peaux et composants d\'origine animale',
+        rarety: 'Commune',
+        localisation: 'Loups',
+        quantity: '1 unités',
+        sd_research: 'None',
+        weight: '3,5 kg',
+        price: 30
+    },
+    {
+        name: 'Peau d\'ours',
+        category: 'Peaux et composants d\'origine animale',
+        rarety: 'Commune',
+        localisation: 'Ours',
+        quantity: '1D6/2 unité(s)',
+        sd_research: 'None',
+        weight: '6 kg',
+        price: 30
+    },
+    {
+        name: 'Peau de sanglier',
+        category: 'Peaux et composants d\'origine animale',
+        rarety: 'Commune',
+        localisation: 'Sangliers',
+        quantity: '1D6/3 unité(s)',
+        sd_research: 'None',
+        weight: '2 kg',
+        price: 10
+    },
+    {
+        name: 'Peau de panthère',
+        category: 'Peaux et composants d\'origine animale',
+        rarety: 'Commune',
+        localisation: 'Panthères',
+        quantity: '1D6/3 unité(s)',
+        sd_research: 'None',
+        weight: '3 kg',
+        price: 38
     },
     {
         name: 'Plumes',
