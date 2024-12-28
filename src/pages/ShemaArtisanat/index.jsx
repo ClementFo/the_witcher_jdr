@@ -4,7 +4,7 @@ import '../../styles/App.css';
 function SchemaArtisanat() {
   return (
     <div>
-      <h2>Schema d'artisanat</h2>
+      <h2 className='title'>Schema d'artisanat</h2>
       <div className="section">
       </div>
     </div>

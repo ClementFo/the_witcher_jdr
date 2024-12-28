@@ -5,7 +5,7 @@ import Accordeon from '../../components/Accordeon';
 function ComposantArtisanat() {
   return (
     <div>
-      <h2>Composants d'artisanat</h2>
+      <h2 className='title'>Composants d'artisanat</h2>
       <section>
         <Accordeon DataList={composant_artisanat}></Accordeon>
       </section>
