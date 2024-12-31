@@ -311,3 +311,207 @@ export const potions_sorceleur = [
         price: 'None'
     }
 ]
+
+export const huiles_sorceleur = [
+    {
+        name: 'Huile contre des draconides',
+        category: 'Huiles de sorceleurs',
+        level: 'None',
+        sd_alchimie: 16,
+        duration: '15 minutes',
+        composant: [quebrith, quebrith, hydragenum, hydragenum],
+        price: 'None'
+    },
+    {
+        name: 'Huile contre les bêtes',
+        category: 'Huiles de sorceleurs',
+        level: 'None',
+        sd_alchimie: 14,
+        duration: '15 minutes',
+        composant: [vitriol, ether],
+        price: 'None'
+    },
+    {
+        name: 'Huile contre les créatures maudites',
+        category: 'Huiles de sorceleurs',
+        level: 'None',
+        sd_alchimie: 16,
+        duration: '15 minutes',
+        composant: [vermillon, ether, hydragenum, vitriol],
+        price: 'None'
+    },
+    {
+        name: 'Huile contre les élémentaires',
+        category: 'Huiles de sorceleurs',
+        level: 'None',
+        sd_alchimie: 16,
+        duration: '15 minutes',
+        composant: [rebis, hydragenum, quebrith, vermillon],
+        price: 'None'
+    },
+    {
+        name: 'Huile contre les hybrides',
+        category: 'Huiles de sorceleurs',
+        level: 'None',
+        sd_alchimie: 16,
+        duration: '15 minutes',
+        composant: [rebis, sol, quebrith, fulgur],
+        price: 'None'
+    },
+    {
+        name: 'Huile contre les insectoïdes',
+        category: 'Huiles de sorceleurs',
+        level: 'None',
+        sd_alchimie: 14,
+        duration: '15 minutes',
+        composant: [hydragenum, rebis],
+        price: 'None'
+    },
+    {
+        name: 'Huile contre les nécrophages',
+        category: 'Huiles de sorceleurs',
+        level: 'None',
+        sd_alchimie: 16,
+        duration: '15 minutes',
+        composant: [hydragenum, sol, vitriol, quebrith],
+        price: 'None'
+    },
+    {
+        name: 'Huile contre les ogroïdes',
+        category: 'Huiles de sorceleurs',
+        level: 'None',
+        sd_alchimie: 15,
+        duration: '15 minutes',
+        composant: [rebis, quebrith, caelum],
+        price: 'None'
+    },
+    {
+        name: 'Huile contre les spectres',
+        category: 'Huiles de sorceleurs',
+        level: 'None',
+        sd_alchimie: 16,
+        duration: '15 minutes',
+        composant: [rebis, hydragenum, ether, fulgur],
+        price: 'None'
+    },
+    {
+        name: 'Huile contre les vampires',
+        category: 'Huiles de sorceleurs',
+        level: 'None',
+        sd_alchimie: 16,
+        duration: '15 minutes',
+        composant: [ether, sol, sol, fulgur],
+        price: 'None'
+    },
+    {
+        name: 'Huile contre les vestiges',
+        category: 'Huiles de sorceleurs',
+        level: 'None',
+        sd_alchimie: 16,
+        duration: '15 minutes',
+        composant: [quebrith, vermillon, fulgur, ether],
+        price: 'None'
+    },
+    {
+        name: 'Venin du pendu',
+        category: 'Huiles de sorceleurs',
+        level: 'None',
+        sd_alchimie: 16,
+        duration: '15 minutes',
+        composant: [caelum, sol, vitriol, quebrith],
+        price: 'None'
+    }
+]
+
+export const decoctions_sorceleur = [
+    {
+        name: 'Arachas',
+        category: 'Decoctions de sorceleurs',
+        level: 'None',
+        sd_alchimie: 16,
+        duration: '30 minutes',
+        composant: [vermillon, ether, rebis, vitriol],
+        price: 'None'
+    },
+    {
+        name: 'Fiellon',
+        category: 'Decoctions de sorceleurs',
+        level: 'None',
+        sd_alchimie: 18,
+        duration: '30 minutes',
+        composant: [ether, ether, vitriol, vermillon, fulgur],
+        price: 'None'
+    },
+    {
+        name: 'Griffon',
+        category: 'Decoctions de sorceleurs',
+        level: 'None',
+        sd_alchimie: 16,
+        duration: '30 minutes',
+        composant: [quebrith, vermillon, fulgur, ether],
+        price: 'None'
+    },
+    {
+        name: 'Guenaude sépulcrale',
+        category: 'Decoctions de sorceleurs',
+        level: 'None',
+        sd_alchimie: 16,
+        duration: '30 minutes',
+        composant: [ether, quebrith, vitriol, caelum],
+        price: 'None'
+    },
+    {
+        name: 'Karakan',
+        category: 'Decoctions de sorceleurs',
+        level: 'None',
+        sd_alchimie: 16,
+        duration: '30 minutes',
+        composant: [vermillon, sol, fulgur, caelum],
+        price: 'None'
+    },
+    {
+        name: 'Loup-garou',
+        category: 'Decoctions de sorceleurs',
+        level: 'None',
+        sd_alchimie: 18,
+        duration: '30 minutes',
+        composant: [rebis, sol, hydragenum, hydragenum, fulgur],
+        price: 'None'
+    },
+    {
+        name: 'Nekker',
+        category: 'Decoctions de sorceleurs',
+        level: 'None',
+        sd_alchimie: 14,
+        duration: '30 minutes',
+        composant: [rebis, quebrith, hydragenum],
+        price: 'None'
+    },
+    {
+        name: 'Spectre de midi',
+        category: 'Decoctions de sorceleurs',
+        level: 'None',
+        sd_alchimie: 18,
+        duration: '30 minutes',
+        composant: [sol, sol, vitriol, quebrith, ether],
+        price: 'None'
+    },
+    {
+        name: 'Troll',
+        category: 'Decoctions de sorceleurs',
+        level: 'None',
+        sd_alchimie: 18,
+        duration: '30 minutes',
+        composant: [caelum, quebrith, quebrith, vitriol, vermillon],
+        price: 'None'
+    },
+    {
+        name: 'Wyvern',
+        category: 'Decoctions de sorceleurs',
+        level: 'None',
+        sd_alchimie: 18,
+        duration: '30 minutes',
+        composant: [rebis, rebis, vitriol, ether, fulgur],
+        price: 'None'
+    }
+]
