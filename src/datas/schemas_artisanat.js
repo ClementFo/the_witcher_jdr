@@ -1174,5 +1174,88 @@ export const armure_ancienne = [
         composant: ['Cuir (x1)', 'Acier mahakamien (x2)', 'Graisse ester (x2)', 'Eau-forte (x3)', 'Cuir durci (x5)', 'Bois durci (x10)', 'Cire d\'ogre (x11)'],
         investment: 788,
         price: 1574
+    },
+    {
+        name: 'Armure de plates mahakamienne',
+        category: 'Schémas d\'armes',
+        level: 'Schémas de grand maître',
+        sd_artisanat: 28,
+        duration: '28 heures',
+        composant: ['Huile de dermoptère (x1)', 'Dimerithium mahakamien (x2)', 'Huile assombrissante (x2)', 'Météorite (x2)', 'Cire d\'ogre (x3)', 'Cuir durci (x5)', 'Graisse ester (x8)', 'Fils (x10)', 'Acier mahakamien (x12)', 'Eau forte (x12)'],
+        investment: 2645,
+        price: 5286
+    }
+]
+
+export const amelioration_armure = [
+    {
+        name: 'Fibres',
+        category: 'Schémas d\'améliorations d\'armure',
+        level: 'Schémas de novice',
+        sd_artisanat: 14,
+        duration: '3 heures',
+        composant: ['Toile de lin (x1)', 'Fil (x2)'],
+        investment: 28,
+        price: 60
+    },
+    {
+        name: 'Cuir clouté',
+        category: 'Schémas d\'améliorations d\'armure',
+        level: 'Schémas de novice',
+        sd_artisanat: 14,
+        duration: '3 heures',
+        composant: ['Cuir (x1)', 'Fer (x1)', 'Fil (x1)'],
+        investment: 61,
+        price: 120
+    },
+    {
+        name: 'Cotte de mailles',
+        category: 'Schémas d\'améliorations d\'armure',
+        level: 'Schémas de compagnon',
+        sd_artisanat: 17,
+        duration: '5 heures',
+        composant: ['Acier (x2)'],
+        investment: 96,
+        price: 187
+    },
+    {
+        name: 'Cuir renforcé',
+        category: 'Schémas d\'améliorations d\'armure',
+        level: 'Schémas de compagnon',
+        sd_artisanat: 16,
+        duration: '4 heures',
+        composant: ['Cuir (x1)', 'Cuir durci (x1)', 'Cire (x3)', 'Fil (x5)'],
+        investment: 97,
+        price: 195
+    },
+    {
+        name: 'Acier',
+        category: 'Schémas d\'améliorations d\'armure',
+        level: 'Schémas de compagnon',
+        sd_artisanat: 18,
+        duration: '5 heures',
+        composant: ['Acier (x2)', 'Eau-forte (x2)', 'Fil (x3)'],
+        investment: 109,
+        price: 217
+    },
+    {
+        name: 'Amélioration elfique',
+        category: 'Schémas d\'améliorations d\'armure',
+        level: 'Schémas de maître',
+        sd_artisanat: 24,
+        duration: '6 heures',
+        composant: ['Acier noir (x1)', 'Cuir durci (x1)', 'Plumes (x3)', 'Fil (x5)'],
+        investment: 149,
+        price: 300
+    },
+    {
+        name: 'Amélioration naine',
+        category: 'Schémas d\'améliorations d\'armure',
+        level: 'Schémas de maître',
+        sd_artisanat: 24,
+        duration: '6 heures',
+        composant: ['Acier mahakamien (x1)', 'Charbon (x1)', 'Peau de loup (x1)', 'Fil (x5)'],
+        investment: 144,
+        price: 292
     }
 ]
