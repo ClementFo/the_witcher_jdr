@@ -1,5 +1,3 @@
-import { vitriol, rebis, ether, quebrith, hydragenum, vermillon, sol, caelum, fulgur } from './composant_alchimique.js';
-
 export const formules_alchimique = [
     {
         name: 'Ami de l\'empoisonneur',
@@ -7,7 +5,7 @@ export const formules_alchimique = [
         level: 'Formules de novice',
         sd_alchimie: 14,
         duration: '10 minutes',
-        composant: [vermillon, vermillon, vitriol, caelum],
+        composant: ['vermillon', 'vermillon', 'vitriol', 'caelum'],
         price: 24
     },
     {
@@ -16,7 +14,7 @@ export const formules_alchimique = [
         level: 'Formules de novice',
         sd_alchimie: 11,
         duration: '5 rounds',
-        composant: [quebrith, ether],
+        composant: ['quebrith', 'ether'],
         price: 22
     },
     {
@@ -25,7 +23,7 @@ export const formules_alchimique = [
         level: 'Formules de novice',
         sd_alchimie: 12,
         duration: '5 rounds',
-        composant: [quebrith, caelum],
+        composant: ['quebrith', 'caelum'],
         price: 33
     },
     {
@@ -34,7 +32,7 @@ export const formules_alchimique = [
         level: 'Formules de novice',
         sd_alchimie: 12,
         duration: '5 rounds',
-        composant: [vitriol, rebis],
+        composant: ['vitriol', 'rebis'],
         price: 47
     },
     {
@@ -43,7 +41,7 @@ export const formules_alchimique = [
         level: 'Formules de novice',
         sd_alchimie: 12,
         duration: '5 rounds',
-        composant: [quebrith, vermillon],
+        composant: ['quebrith', 'vermillon'],
         price: 18
     },
     {
@@ -52,7 +50,7 @@ export const formules_alchimique = [
         level: 'Formules de novice',
         sd_alchimie: 14,
         duration: '10 minutes',
-        composant: [hydragenum, ether, ether, vitriol],
+        composant: ['hydragenum', 'ether', 'ether', 'vitriol'],
         price: 28
     },
     {
@@ -61,7 +59,7 @@ export const formules_alchimique = [
         level: 'Formules de novice',
         sd_alchimie: 12,
         duration: '5 rounds',
-        composant: [vermillon, quebrith],
+        composant: ['vermillon', 'quebrith'],
         price: 27
     },
     {
@@ -70,7 +68,7 @@ export const formules_alchimique = [
         level: 'Formules de novice',
         sd_alchimie: 12,
         duration: '5 rounds',
-        composant: [ether, rebis],
+        composant: ['ether', 'rebis'],
         price: 30
     },
     {
@@ -79,7 +77,7 @@ export const formules_alchimique = [
         level: 'Formules de novice',
         sd_alchimie: 14,
         duration: '10 minutes',
-        composant: [quebrith, rebis, caelum, caelum],
+        composant: ['quebrith', 'rebis', 'caelum', 'caelum'],
         price: 37
     },
     {
@@ -88,7 +86,7 @@ export const formules_alchimique = [
         level: 'Formules de novice',
         sd_alchimie: 14,
         duration: '10 minutes',
-        composant: [sol, ether, ether, caelum],
+        composant: ['sol', 'ether', 'ether', 'caelum'],
         price: 30
     },
     {
@@ -97,7 +95,7 @@ export const formules_alchimique = [
         level: 'Formules de novice',
         sd_alchimie: 13,
         duration: '5 rounds',
-        composant: [ether, ether, hydragenum, vermillon],
+        composant: ['ether', 'ether', 'hydragenum', 'vermillon'],
         price: 27
     },
     {
@@ -106,7 +104,7 @@ export const formules_alchimique = [
         level: 'Formules de compagnon',
         sd_alchimie: 15,
         duration: '10 minutes',
-        composant: [quebrith, hydragenum, caelum, caelum, vitriol],
+        composant: ['quebrith', 'hydragenum', 'caelum', 'caelum', 'vitriol'],
         price: 52
     },
     {
@@ -115,7 +113,7 @@ export const formules_alchimique = [
         level: 'Formules de compagnon',
         sd_alchimie: 16,
         duration: '15 minutes',
-        composant: [quebrith, quebrith, vermillon, vermillon, ether, vitriol],
+        composant: ['quebrith', 'quebrith', 'vermillon', 'vermillon', 'ether', 'vitriol'],
         price: 54
     },
     {
@@ -124,16 +122,16 @@ export const formules_alchimique = [
         level: 'Formules de compagnon',
         sd_alchimie: 16,
         duration: '15 minutes',
-        composant: [quebrith, rebis, rebis, caelum, vitriol, vermillon],
+        composant: ['quebrith', 'rebis', 'rebis', 'caelum', 'vitriol', 'vermillon'],
         price: 67
     },
     {
-        name: 'Solution acide',
+        name: 'solution acide',
         category: 'Les articles alchimiques',
         level: 'Formules de compagnon',
         sd_alchimie: 16,
         duration: '15 minutes',
-        composant: [ether, quebrith, vermillon, vitriol, vitriol, vitriol],
+        composant: ['ether', 'quebrith', 'vermillon', 'vitriol', 'vitriol', 'vitriol'],
         price: 84
     },
     {
@@ -142,7 +140,7 @@ export const formules_alchimique = [
         level: 'Formules de compagnon',
         sd_alchimie: 15,
         duration: '10 minutes',
-        composant: [quebrith, quebrith, ether, ether, rebis],
+        composant: ['quebrith', 'quebrith', 'ether', 'ether', 'rebis'],
         price: 67
     },
     {
@@ -151,7 +149,7 @@ export const formules_alchimique = [
         level: 'Formules de maître',
         sd_alchimie: 17,
         duration: '15 minutes',
-        composant: [vermillon, vermillon, ether, ether, caelum, sol, fulgur],
+        composant: ['vermillon', 'vermillon', 'ether', 'ether', 'caelum', 'sol', 'fulgur'],
         price: 100
     },
     {
@@ -160,7 +158,7 @@ export const formules_alchimique = [
         level: 'Formules de maître',
         sd_alchimie: 17,
         duration: '15 minutes',
-        composant: [sol, sol, rebis, rebis, rebis, fulgur, vitriol],
+        composant: ['sol', 'sol', 'rebis', 'rebis', 'rebis', 'fulgur', 'vitriol'],
         price: 97
     },
     {
@@ -169,7 +167,7 @@ export const formules_alchimique = [
         level: 'Formules de maître',
         sd_alchimie: 18,
         duration: '30 minutes',
-        composant: [rebis, rebis, rebis, hydragenum, hydragenum, vitriol, vitriol, vermillon],
+        composant: ['rebis', 'rebis', 'rebis', 'hydragenum', 'hydragenum', 'vitriol', 'vitriol', 'vermillon'],
         price: 120
     },
     {
@@ -178,7 +176,7 @@ export const formules_alchimique = [
         level: 'Formules de maître',
         sd_alchimie: 22,
         duration: '30 minutes',
-        composant: [sol, sol, sol, fulgur, fulgur, fulgur, caelum, vermillon],
+        composant: ['sol', 'sol', 'sol', 'fulgur', 'fulgur', 'fulgur', 'caelum', 'vermillon'],
         price: 142
     },
     {
@@ -187,7 +185,7 @@ export const formules_alchimique = [
         level: 'Formules de maître',
         sd_alchimie: 20,
         duration: '30 minutes',
-        composant: [hydragenum, hydragenum, hydragenum, ether, ether, vermillon, vitriol, vitriol],
+        composant: ['hydragenum', 'hydragenum', 'hydragenum', 'ether', 'ether', 'vermillon', 'vitriol', 'vitriol'],
         price: 118
     },
     {
@@ -196,7 +194,7 @@ export const formules_alchimique = [
         level: 'Formules de maître',
         sd_alchimie: 18,
         duration: '30 minutes',
-        composant: [quebrith, quebrith, ether, vitriol, vitriol, vermillon, hydragenum, hydragenum],
+        composant: ['quebrith', 'quebrith', 'ether', 'vitriol', 'vitriol', 'vermillon', 'hydragenum', 'hydragenum'],
         price: 114
     }
 ]
@@ -208,7 +206,7 @@ export const potions_sorceleur = [
         level: 'None',
         sd_alchimie: 18,
         duration: '30 minutes',
-        composant: [vitriol, vitriol, rebis, rebis],
+        composant: ['vitriol', 'vitriol', 'rebis', 'rebis'],
         price: 'None'
     },
     {
@@ -217,7 +215,7 @@ export const potions_sorceleur = [
         level: 'None',
         sd_alchimie: 16,
         duration: '30 minutes',
-        composant: [ether, vermillon, hydragenum],
+        composant: ['ether', 'vermillon', 'hydragenum'],
         price: 'None'
     },
     { 
@@ -226,7 +224,7 @@ export const potions_sorceleur = [
         level: 'None',
         sd_alchimie: 16,
         duration: '30 minutes',
-        composant: [vitriol, vermillon, quebrith],
+        composant: ['vitriol', 'vermillon', 'quebrith'],
         price: 'None'
     },
     {
@@ -235,7 +233,7 @@ export const potions_sorceleur = [
         level: 'None',
         sd_alchimie: 18,
         duration: '30 minutes',
-        composant: [rebis, vermillon, caelum, quebrith],
+        composant: ['rebis', 'vermillon', 'caelum', 'quebrith'],
         price: 'None'
     },
     {
@@ -244,7 +242,7 @@ export const potions_sorceleur = [
         level: 'None',
         sd_alchimie: 16,
         duration: '30 minutes',
-        composant: [vitriol, ether, caelum],
+        composant: ['vitriol', 'ether', 'caelum'],
         price: 'None'
     },
     {
@@ -253,7 +251,7 @@ export const potions_sorceleur = [
         level: 'None',
         sd_alchimie: 16,
         duration: '30 minutes',
-        composant: [rebis, vermillon, caelum],
+        composant: ['rebis', 'vermillon', 'caelum'],
         price: 'None'
     },
     {
@@ -262,7 +260,7 @@ export const potions_sorceleur = [
         level: 'None',
         sd_alchimie: 16,
         duration: '30 minutes',
-        composant: [vitriol, rebis, ether],
+        composant: ['vitriol', 'rebis', 'ether'],
         price: 'None'
     },
     {
@@ -271,7 +269,7 @@ export const potions_sorceleur = [
         level: 'None',
         sd_alchimie: 18,
         duration: '30 minutes',
-        composant: [vitriol, vitriol, quebrith, fulgur],
+        composant: ['vitriol', 'vitriol', 'quebrith', 'fulgur'],
         price: 'None'
     },
     {
@@ -280,7 +278,7 @@ export const potions_sorceleur = [
         level: 'None',
         sd_alchimie: 16,
         duration: '30 minutes',
-        composant: [rebis, ether, quebrith],
+        composant: ['rebis', 'ether', 'quebrith'],
         price: 'None'
     },
     {
@@ -289,7 +287,7 @@ export const potions_sorceleur = [
         level: 'None',
         sd_alchimie: 20,
         duration: '30 minutes',
-        composant: [quebrith, hydragenum, hydragenum, vermillon, vermillon],
+        composant: ['quebrith', 'hydragenum', 'hydragenum', 'vermillon', 'vermillon'],
         price: 'None'
     },
     {
@@ -298,7 +296,7 @@ export const potions_sorceleur = [
         level: 'None',
         sd_alchimie: 20,
         duration: '30 minutes',
-        composant: [vitriol, vitriol, vitriol, rebis, ether],
+        composant: ['vitriol', 'vitriol', 'vitriol', 'rebis', 'ether'],
         price: 'None'
     },
     {
@@ -307,7 +305,7 @@ export const potions_sorceleur = [
         level: 'None',
         sd_alchimie: 20,
         duration: '30 minutes',
-        composant: [quebrith, quebrith, hydragenum, hydragenum],
+        composant: ['quebrith', 'quebrith', 'hydragenum', 'hydragenum'],
         price: 'None'
     }
 ]
@@ -319,7 +317,7 @@ export const huiles_sorceleur = [
         level: 'None',
         sd_alchimie: 16,
         duration: '15 minutes',
-        composant: [quebrith, quebrith, hydragenum, hydragenum],
+        composant: ['quebrith', 'quebrith', 'hydragenum', 'hydragenum'],
         price: 'None'
     },
     {
@@ -328,7 +326,7 @@ export const huiles_sorceleur = [
         level: 'None',
         sd_alchimie: 14,
         duration: '15 minutes',
-        composant: [vitriol, ether],
+        composant: ['vitriol', 'ether'],
         price: 'None'
     },
     {
@@ -337,7 +335,7 @@ export const huiles_sorceleur = [
         level: 'None',
         sd_alchimie: 16,
         duration: '15 minutes',
-        composant: [vermillon, ether, hydragenum, vitriol],
+        composant: ['vermillon', 'ether', 'hydragenum', 'vitriol'],
         price: 'None'
     },
     {
@@ -346,7 +344,7 @@ export const huiles_sorceleur = [
         level: 'None',
         sd_alchimie: 16,
         duration: '15 minutes',
-        composant: [rebis, hydragenum, quebrith, vermillon],
+        composant: ['rebis', 'hydragenum', 'quebrith', 'vermillon'],
         price: 'None'
     },
     {
@@ -355,7 +353,7 @@ export const huiles_sorceleur = [
         level: 'None',
         sd_alchimie: 16,
         duration: '15 minutes',
-        composant: [rebis, sol, quebrith, fulgur],
+        composant: ['rebis', 'sol', 'quebrith', 'fulgur'],
         price: 'None'
     },
     {
@@ -364,7 +362,7 @@ export const huiles_sorceleur = [
         level: 'None',
         sd_alchimie: 14,
         duration: '15 minutes',
-        composant: [hydragenum, rebis],
+        composant: ['hydragenum', 'rebis'],
         price: 'None'
     },
     {
@@ -373,7 +371,7 @@ export const huiles_sorceleur = [
         level: 'None',
         sd_alchimie: 16,
         duration: '15 minutes',
-        composant: [hydragenum, sol, vitriol, quebrith],
+        composant: ['hydragenum', 'sol', 'vitriol', 'quebrith'],
         price: 'None'
     },
     {
@@ -382,7 +380,7 @@ export const huiles_sorceleur = [
         level: 'None',
         sd_alchimie: 15,
         duration: '15 minutes',
-        composant: [rebis, quebrith, caelum],
+        composant: ['rebis', 'quebrith', 'caelum'],
         price: 'None'
     },
     {
@@ -391,7 +389,7 @@ export const huiles_sorceleur = [
         level: 'None',
         sd_alchimie: 16,
         duration: '15 minutes',
-        composant: [rebis, hydragenum, ether, fulgur],
+        composant: ['rebis', 'hydragenum', 'ether', 'fulgur'],
         price: 'None'
     },
     {
@@ -400,7 +398,7 @@ export const huiles_sorceleur = [
         level: 'None',
         sd_alchimie: 16,
         duration: '15 minutes',
-        composant: [ether, sol, sol, fulgur],
+        composant: ['ether', 'sol', 'sol', 'fulgur'],
         price: 'None'
     },
     {
@@ -409,7 +407,7 @@ export const huiles_sorceleur = [
         level: 'None',
         sd_alchimie: 16,
         duration: '15 minutes',
-        composant: [quebrith, vermillon, fulgur, ether],
+        composant: ['quebrith', 'vermillon', 'fulgur', 'ether'],
         price: 'None'
     },
     {
@@ -418,7 +416,7 @@ export const huiles_sorceleur = [
         level: 'None',
         sd_alchimie: 16,
         duration: '15 minutes',
-        composant: [caelum, sol, vitriol, quebrith],
+        composant: ['caelum', 'sol', 'vitriol', 'quebrith'],
         price: 'None'
     }
 ]
@@ -430,7 +428,7 @@ export const decoctions_sorceleur = [
         level: 'None',
         sd_alchimie: 16,
         duration: '30 minutes',
-        composant: [vermillon, ether, rebis, vitriol],
+        composant: ['vermillon', 'ether', 'rebis', 'vitriol'],
         price: 'None'
     },
     {
@@ -439,7 +437,7 @@ export const decoctions_sorceleur = [
         level: 'None',
         sd_alchimie: 18,
         duration: '30 minutes',
-        composant: [ether, ether, vitriol, vermillon, fulgur],
+        composant: ['ether', 'ether', 'vitriol', 'vermillon', 'fulgur'],
         price: 'None'
     },
     {
@@ -448,7 +446,7 @@ export const decoctions_sorceleur = [
         level: 'None',
         sd_alchimie: 16,
         duration: '30 minutes',
-        composant: [quebrith, vermillon, fulgur, ether],
+        composant: ['quebrith', 'vermillon', 'fulgur', 'ether'],
         price: 'None'
     },
     {
@@ -457,7 +455,7 @@ export const decoctions_sorceleur = [
         level: 'None',
         sd_alchimie: 16,
         duration: '30 minutes',
-        composant: [ether, quebrith, vitriol, caelum],
+        composant: ['ether', 'quebrith', 'vitriol', 'caelum'],
         price: 'None'
     },
     {
@@ -466,7 +464,7 @@ export const decoctions_sorceleur = [
         level: 'None',
         sd_alchimie: 16,
         duration: '30 minutes',
-        composant: [vermillon, sol, fulgur, caelum],
+        composant: ['vermillon', 'sol', 'fulgur', 'caelum'],
         price: 'None'
     },
     {
@@ -475,7 +473,7 @@ export const decoctions_sorceleur = [
         level: 'None',
         sd_alchimie: 18,
         duration: '30 minutes',
-        composant: [rebis, sol, hydragenum, hydragenum, fulgur],
+        composant: ['rebis', 'sol', 'hydragenum', 'hydragenum', 'fulgur'],
         price: 'None'
     },
     {
@@ -484,7 +482,7 @@ export const decoctions_sorceleur = [
         level: 'None',
         sd_alchimie: 14,
         duration: '30 minutes',
-        composant: [rebis, quebrith, hydragenum],
+        composant: ['rebis', 'quebrith', 'hydragenum'],
         price: 'None'
     },
     {
@@ -493,7 +491,7 @@ export const decoctions_sorceleur = [
         level: 'None',
         sd_alchimie: 18,
         duration: '30 minutes',
-        composant: [sol, sol, vitriol, quebrith, ether],
+        composant: ['sol', 'sol', 'vitriol', 'quebrith', 'ether'],
         price: 'None'
     },
     {
@@ -502,7 +500,7 @@ export const decoctions_sorceleur = [
         level: 'None',
         sd_alchimie: 18,
         duration: '30 minutes',
-        composant: [caelum, quebrith, quebrith, vitriol, vermillon],
+        composant: ['caelum', 'quebrith', 'quebrith', 'vitriol', 'vermillon'],
         price: 'None'
     },
     {
@@ -511,7 +509,7 @@ export const decoctions_sorceleur = [
         level: 'None',
         sd_alchimie: 18,
         duration: '30 minutes',
-        composant: [rebis, rebis, vitriol, ether, fulgur],
+        composant: ['rebis', 'rebis', 'vitriol', 'ether', 'fulgur'],
         price: 'None'
     }
 ]
